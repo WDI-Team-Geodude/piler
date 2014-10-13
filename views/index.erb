@@ -22,17 +22,15 @@
 			<div class="col-md-3"><a href="#" id="file">File a Report</a></div>
 			<div class="col-md-3"><a href="#" id="profile">View Profile</a></div>
 			<div class="col-md-3"><a href="#" id="add">Add User</a></div>
-<<<<<<< HEAD
-
 		</div>
 	</header>
 	<div id="wrapper">
-		<div id="sidebar-wrapper">
+		<div id="sidebar-wrapper" class="sidebar">
 			<ul class="sidebar-nav">
 				<li class="sidebar-brand"></li>
 			</ul>
 		</div>
-		<div id="page-content-wrapper">
+		<div id="page-content-wrapper" class="map">
 			<div class="container-fluid"></div>
 				<div class="row">
 					<div class="col-lg-12">
@@ -42,15 +40,12 @@
 			</div>
 		</div>
 	</div>
-
 	<script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-
-
 	<script id="file_report_template" type="text/template">
 		<h2>File a Report</h2>
 			<ul>
@@ -80,15 +75,8 @@
 					<button>Post</button>
 				</form>		
 			</ul>
-=======
 		</div>
-	</header>
-	<div class="sidebar">
-		
-	</div>
-	<div class="map">
- 
-	</div>
+	</script>	
 	<script id="file_report_template" type="text/template">
 		<h2>File a Report</h2>
 			<ul>
@@ -118,7 +106,6 @@
 					<button>Post</button>
 				</form>		
 			</ul>
->>>>>>> f21381cde7231ad266d61d24d68b44b1a2d93182
 	</script>
 	<script id="user_profile_template" type="text/template">
 		<form action="users" action="PUT">
