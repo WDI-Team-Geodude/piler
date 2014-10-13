@@ -2,7 +2,7 @@
 function newUserView (){
 	var $sidebar = $("div.sidebar")
 	$sidebar.empty()
-	var newUserHtml = "<h4>New User</h4> <form role='form'> <div class='form-group'> <label for='name'>User Name</label> <input type='text' id='name' placeholder='e.g. PooperScooper123'> </div>"
+	var newUserHtml = "<h3>New User</h3> <form role='form'> <div class='form-group'> <label for='name'>User Name</label> <input type='text' id='name' placeholder='e.g. PooperScooper123'> </div>"
 	newUserHtml += "<div class='form-group'> <label for='email'>Email Address</label> <input type='email' class='form-control' id='email' placeholder='e.g. dogluvr@piler.com'> </div>"
 	newUserHtml += "<div class='form-group'> <label for='password'>Password</label> <input type='password' class='form-control' id='password' placeholder='Password'> </div>" 
 	newUserHtml += "<div class='form-group'> <label for='picture'>Picture</label> <input type='text' id='picture' placeholder='e.g. imgur.com/1234'> </div>"

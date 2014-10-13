@@ -1,5 +1,7 @@
 body{
 	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	text-decoration: none;
 }
  
 header{
@@ -11,11 +13,25 @@ header{
 ul {
 	list-style: none;
 }
- 
+
+h1 {
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+h2 {
+	margin: 0;
+	font-size: 0.5em;
+	margin-bottom: -1.8%;
+} 
 
 a {
 	color: black;
 	font-size: 24px;
+}
+
+a:hover {
+	color: white;
 }
  
 div#piler{
@@ -35,12 +51,33 @@ div#two.row{
 	background: rgba(255,255,255,0.5);
 	margin: 0;
 	color: black;
-} 
+}
+
+div#logo1 {
+	margin-top: 2%;
+}
+
+div#logo2 {
+	margin-top: 4%;
+}
+
+div.col-md-4 {
+	margin-top: 0.6%;
+}
  
+div.col-md-4 a {
+	text-decoration: none;
+}
+
+div.col-md-4#center {
+/*	border-left: solid 1px blue;
+	border-right: solid 1px blue;*/
+}
+
 .sidebar{
-	padding: 3%;
+	padding: 2% 1% 0 1%;
 	width: 30%;
-	height: 500px;
+	height: 600px;
 	float: left;
 	background: blue;
 	color: white;
@@ -119,7 +156,94 @@ div#profile_pic {
  
 .map{
 	width: 70%;
-	height: 500px;
+	height: 600px;
 	float: right;
 	background: rgb(205,133,63);
+}
+
+div#option {
+	margin-top: -2%;
+}
+
+button#enter {
+	margin-top: 2.6%;
+	margin-left: 3%;
+}
+
+.modal-body{
+	color: black;
+}
+
+.modal-title{
+	color: black;
+}
+
+div.file_a_report {
+	padding: 0;
+	text-align: left;
+}
+
+div.file_a_report h3 {
+	text-align: center;
+	margin-bottom: 7%;
+}
+
+div.file_a_report lable {
+	margin: 0;
+}
+
+div.file_a_report li {
+	margin: 0;
+}
+
+div.file_a_report li:nth-child(1) {
+	margin-bottom: -6%;
+}
+
+div.file_a_report li:nth-child(2) {
+	margin-bottom: 8%;
+}
+
+div.file_a_report li:nth-child(3) {
+	margin-bottom: 8%;
+}
+
+div.file_a_report li:nth-child(4) {
+	margin-bottom: 8%;
+}
+
+div.file_a_report li:nth-child(5) {
+	margin-bottom: 8%;
+}
+
+div.file_a_report li:nth-child(6) {
+	margin-bottom: 8%;
+}
+
+div.file_a_report li:nth-child(7) {
+	margin-bottom: 8%;
+}
+
+input {
+	color: black;
+}
+
+textarea {
+	color: black;	
+}
+
+div.form-group {
+	margin-bottom: 6%;
+}
+
+div.form-group:first-child {
+	margin-top: 7%;
+}
+
+div.modal-body textarea {
+	width: 330px;
+}
+
+div.modal-body input#email {
+	margin: 2% 2% 2% 0;
 }
