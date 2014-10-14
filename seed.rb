@@ -1,5 +1,5 @@
 require_relative './db/connection.rb'
-require_relative './config/environments.rb'
+
 
 Neighborhood.delete_all
 Report.delete_all
