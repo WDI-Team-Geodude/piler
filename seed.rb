@@ -1,5 +1,6 @@
 require_relative './db/connection.rb'
 
+
 Neighborhood.delete_all
 Report.delete_all
 User.delete_all
